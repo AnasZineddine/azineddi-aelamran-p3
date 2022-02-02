@@ -2,12 +2,12 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: argocd
+    app: argocd-app
   name: argocd-service
 spec:
   type: ClusterIP
   selector:
-    app: argocd
+    app: argocd-app
   ports:
   - name: http
     port: 8080
