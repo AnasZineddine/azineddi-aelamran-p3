@@ -6,7 +6,7 @@ metadata:
     app: argocd
   annotations:
     ingress.kubernetes.io/ssl-redirect: "false"
-    traefik.ingress.kubernetes.io/rewrite-target: /app
+    traefik.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
   - http:
