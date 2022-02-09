@@ -7,10 +7,6 @@ spec:
     app: myapp
   ports:
   - name: http
-    port: 80
-    protocol: TCP
-    targetPort: 8888
-  - name: https
-    port: 443
+    port: 8888
     protocol: TCP
     targetPort: 8888
